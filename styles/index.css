@@ -55,6 +55,7 @@ body {
   h2{
     color:darkblue;
     font-size: 120%;
+    text-align: center;
   }
    h3{
      font-size: 250%;
@@ -67,6 +68,7 @@ body {
      -webkit-transform: translateY(-50%);
      -ms-transform: translatey(-50%);
      transform: translateY(-50%);
+     text-align: center;
    }
   /*--------------------------------------------*/
   
