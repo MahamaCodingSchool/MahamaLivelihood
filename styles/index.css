@@ -176,12 +176,17 @@ h3 {
   border-radius: 5px;
 }
 /*------------------------------------------*/
-/*
-.dropdown {
-  position: inherit;
-  display: inline-block;
+.about {
+  background-color: #e5e4d7;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 30px 100px;
+  font-size: 110%;
 }
 
+<<<<<<< HEAD
 .dropdown-content {
   display: none;
   position: absolute;
@@ -215,4 +220,18 @@ h3 {
   width: 400px;
   transition-property: height, width;
   transition-duration: 2s, 2s;
+=======
+@media screen and (max-width: 600px){
+  body{
+    display: grid;
+  }
+  #header, #navbar, .sideright, .main, .imagesidebar, #footer {
+    display: grid;
+    width: 100%;
+    margin: 5px 0px ;
+    float: none;
+    padding: 0px;
+  }
+  
+>>>>>>> f57bf31e6b9d22d0db8b4313cc864307e728b231
 }
