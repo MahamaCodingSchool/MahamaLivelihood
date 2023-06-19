@@ -169,6 +169,9 @@ h3 {
   color: #fff;
   background-color: #000;
 }
+#navbar div p a:current{
+  background-color: chartreuse;
+}
 #navbar div p a:hover,
 .dropdown:hover .dropdown-content {
   color: #000;
@@ -186,30 +189,16 @@ h3 {
   font-size: 110%;
 }
 
-<<<<<<< HEAD
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: inherit;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-*/
 #iframe {
   text-align: center;
 }
 .partners img {
   padding: 8px;
 }
+/**************** PICTURES ANIMATION**************/
 .image{
   height: 200px;
-    width: 300px;
+  width: 300px;
 }
 .image img{
   height: inherit;
@@ -218,9 +207,10 @@ h3 {
 .image:hover{
   height: 300px;
   width: 400px;
-  transition-property: height, width;
+  transition-property: height , width;
   transition-duration: 2s, 2s;
-=======
+  transition-delay: 1s;
+}
 @media screen and (max-width: 600px){
   body{
     display: grid;
@@ -230,8 +220,7 @@ h3 {
     width: 100%;
     margin: 5px 0px ;
     float: none;
-    padding: 0px;
+    padding: 0px 5px;
   }
   
->>>>>>> f57bf31e6b9d22d0db8b4313cc864307e728b231
 }

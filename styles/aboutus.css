@@ -17,3 +17,9 @@
     margin-top: 10px;
     color: crimson;
 }
+.about p, .about h3{
+  margin-top: 7px;
+}
+.about p , .about ul li{
+  font-size: 18px;
+}
