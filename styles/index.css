@@ -176,29 +176,26 @@ h3 {
   border-radius: 5px;
 }
 /*------------------------------------------*/
-/*
-.dropdown {
-  position: inherit;
-  display: inline-block;
+.about {
+  background-color: #e5e4d7;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 30px 100px;
+  font-size: 110%;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: inherit;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-*/
-#iframe {
-  text-align: center;
-}
-.partners img {
-  padding: 8px;
+@media screen and (max-width: 600px){
+  body{
+    display: grid;
+  }
+  #header, #navbar, .sideright, .main, .imagesidebar, #footer {
+    display: grid;
+    width: 100%;
+    margin: 5px 0px ;
+    float: none;
+    padding: 0px;
+  }
+  
 }
