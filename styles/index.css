@@ -12,8 +12,12 @@ body {
 #header {
   background-color: #5c755e;
   margin: 10px;
-  height: 90px;
+  height: 150px;
   border-radius: 5px;
+  text-align: center;
+}
+#header > a img{
+  height: 150px;
 }
 /*-------------------------------------------*/
 
@@ -209,7 +213,6 @@ h3 {
   width: 400px;
   transition-property: height , width;
   transition-duration: 2s, 2s;
-  transition-delay: 1s;
 }
 @media screen and (max-width: 600px){
   body{
