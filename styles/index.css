@@ -14,10 +14,17 @@ body {
   margin: 10px;
   height: 150px;
   border-radius: 5px;
+  display: flex;
+  box-sizing: content-box;
+  padding-left: 30%;
+}
+#header > a img {
+  height: 150px;
   text-align: center;
 }
-#header > a img{
-  height: 150px;
+#header > #logotext {
+  color: #fff;
+  padding-top: 60px;
 }
 /*-------------------------------------------*/
 
@@ -173,7 +180,7 @@ h3 {
   color: #fff;
   background-color: #000;
 }
-#navbar div p a:current{
+#navbar div p a:current {
   background-color: chartreuse;
 }
 #navbar div p a:hover,
@@ -200,30 +207,63 @@ h3 {
   padding: 8px;
 }
 /**************** PICTURES ANIMATION**************/
-.image{
+.image {
   height: 200px;
   width: 300px;
+  transition-property: height, width;
+  transition-duration: 2s, 2s;
 }
-.image img{
+.image img {
   height: inherit;
   width: inherit;
 }
-.image:hover{
+.image:hover {
   height: 300px;
   width: 400px;
-  transition-property: height , width;
-  transition-duration: 2s, 2s;
 }
-@media screen and (max-width: 600px){
-  body{
+#logotext{
+  background: linear-gradient(
+    120deg,
+    #f4c117 20.69%,
+    #e64a8d 50.19%,
+    #3eacd8 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 600px) and ( min-width:200px) {
+  body {
     display: grid;
   }
-  #header, #navbar, .sideright, .main, .imagesidebar, #footer {
+  #header,
+  #navbar,
+  .sideright,
+  .main,
+  .imagesidebar,
+  #footer {
     display: grid;
     width: 100%;
-    margin: 5px 0px ;
+    margin: 5px 0px;
     float: none;
     padding: 0px 5px;
   }
-  
+  #navbar{
+    display: flex;
+    height: auto;
+}
+  #header{
+    display: flex;
+    padding-left: 0px;
+  }
+  #header a > img{
+  margin-left: 30px;
+  }
+  #logotext{
+    padding-top: 30px;
+    display: grid;
+    text-justify: auto;
+  }
+  .main{
+    margin: 5px;
+  }
 }

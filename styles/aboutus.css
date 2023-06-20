@@ -23,3 +23,10 @@
 .about p , .about ul li{
   font-size: 18px;
 }
+@media screen and (max-width:600px) {
+  .about{
+    margin: 0px;
+    display: grid;
+    grid-row: auto;
+  }
+}
