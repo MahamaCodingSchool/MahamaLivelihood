@@ -221,7 +221,7 @@ h3 {
   height: 300px;
   width: 400px;
 }
-#logotext{
+#logotext {
   background: linear-gradient(
     120deg,
     #f4c117 20.69%,
@@ -231,7 +231,7 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media screen and (max-width: 600px) and ( min-width:200px) {
+@media screen and (min-width: 200px) and (max-width: 600px) {
   body {
     display: grid;
   }
@@ -247,23 +247,23 @@ h3 {
     float: none;
     padding: 0px 5px;
   }
-  #navbar{
+  #navbar {
     display: flex;
     height: auto;
-}
-  #header{
+  }
+  #header {
     display: flex;
     padding-left: 0px;
   }
-  #header a > img{
-  margin-left: 30px;
+  #header a > img {
+    margin-left: 30px;
   }
-  #logotext{
+  #logotext {
     padding-top: 30px;
     display: grid;
     text-justify: auto;
   }
-  .main{
+  .main {
     margin: 5px;
   }
 }
