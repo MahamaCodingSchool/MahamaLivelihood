@@ -1,5 +1,5 @@
 {
-    "liveServer.settings.port": 5501,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+  "liveServer.settings.port": 5503,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
 }
